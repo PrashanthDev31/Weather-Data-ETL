@@ -16,11 +16,12 @@ This project is an **AWS-based ETL pipeline** that fetches **real-time weather d
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
-```bash
+
+bash
 git clone https://github.com/your-username/weather-data-etl.git
 cd weather-data-etl
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
 3️⃣ Set Up AWS Credentials
