@@ -31,7 +31,9 @@ bash
 ```Fetch weather data and process it:```
 
 python scripts/fetch_weather.py
+
 python scripts/convert_json_to_csv.py
+
 python scripts/load_to_redshift.py
 
 📊 Queries for Analytics
