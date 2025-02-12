@@ -1,0 +1,18 @@
+CREATE TABLE weather_data (
+    lon DECIMAL(10,6),
+    lat DECIMAL(10,6),
+    weather_id INT,
+    weather_main VARCHAR(50),
+    weather_desc VARCHAR(100),
+    temp FLOAT,
+    feels_like FLOAT,
+    temp_min FLOAT,
+    temp_max FLOAT,
+    pressure INT,
+    humidity INT,
+    wind_speed FLOAT,
+    wind_deg INT,
+    clouds_all INT,
+    dt BIGINT,
+    city_name VARCHAR(100)
+);
