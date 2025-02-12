@@ -18,17 +18,17 @@ This project is an **AWS-based ETL pipeline** that fetches **real-time weather d
 ### 1️⃣ Clone the Repository
 
 bash
-git clone https://github.com/your-username/weather-data-etl.git
-cd weather-data-etl
+```git clone https://github.com/your-username/weather-data-etl.git```
+```cd weather-data-etl```
 
 ### 2️⃣ Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 3️⃣ Set Up AWS Credentials
-Ensure you have an AWS IAM role with permissions for S3, Lambda, Glue, and Redshift.
+```Ensure you have an AWS IAM role with permissions for S3, Lambda, Glue, and Redshift.```
 
 4️⃣ Run ETL Scripts
-Fetch weather data and process it:
+```Fetch weather data and process it:```
 
 python scripts/fetch_weather.py
 python scripts/convert_json_to_csv.py
@@ -36,5 +36,5 @@ python scripts/load_to_redshift.py
 
 📊 Queries for Analytics
 
-SELECT city_name, AVG(temp) FROM weather_data GROUP BY city_name;
+``` SELECT city_name, AVG(temp) FROM weather_data GROUP BY city_name;```
 
