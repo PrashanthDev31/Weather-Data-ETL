@@ -19,6 +19,7 @@ This project is an **AWS-based ETL pipeline** that fetches **real-time weather d
 
 bash
 ```git clone https://github.com/your-username/weather-data-etl.git```
+
 ```cd weather-data-etl```
 
 ### 2️⃣ Install Dependencies
