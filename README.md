@@ -24,12 +24,15 @@ bash
 ```cd weather-data-etl```
 
 ### 2️⃣ Install Dependencies
+
 ```pip install -r requirements.txt```
 
 3️⃣ Set Up AWS Credentials
+
 ```Ensure you have an AWS IAM role with permissions for S3, Lambda, Glue, and Redshift.```
 
 4️⃣ Run ETL Scripts
+
 ```Fetch weather data and process it:```
 
 ```python scripts/fetch_weather.py```
