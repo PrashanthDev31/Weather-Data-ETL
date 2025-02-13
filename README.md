@@ -53,7 +53,10 @@ bash
 
 ### **4. Test the Lambda Function**  
 - Save and test the function.  
-- Verify that weather data is successfully written to the **`fetched-data`** S3 bucket.  
+- Verify that weather data is successfully written to the **`fetched-data`** S3 bucket.
+- Notice any error--> import module requests issue. Why?
+- In Lambda function, the python engine only supports basic modules. If we want to use any other modules, we need to install all the modules in a ZIP file , and add the file in layers of the lambda service.
+- Go to lambda fucntion, insert a layer and choose the file. (file requests_layer.zip is provided)
 
 ### **5. Automate Data Ingestion Using Amazon EventBridge**  
 - Navigate to **Amazon EventBridge** and create a **scheduled rule**:  
