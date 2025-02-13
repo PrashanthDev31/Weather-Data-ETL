@@ -6,10 +6,11 @@
 This project is an **AWS-based ETL pipeline** that fetches **real-time weather data** from an API every **12 minutes**, transforms it, and loads it into **Amazon Redshift** for analytics. The data is later visualized using **Amazon QuickSight**.
 
 ## 🏗️ Architecture
-- **AWS S3** - Stores raw and processed data
-- **AWS Lambda** - Handles JSON to CSV conversion and Redshift loading
-- **Amazon Redshift** - Stores structured weather data for analytics
-- **Amazon QuickSight** - Data visualization
+
+- **AWS S3** -            ``Stores raw and processed data``
+- **AWS Lambda** -        ```Handles JSON to CSV conversion and Redshift loading```
+- **Amazon Redshift** -   ``Stores structured weather data for analytics``
+- **Amazon QuickSight** - ``Data visualization``
 
 ## 📂 Project Structure
 
